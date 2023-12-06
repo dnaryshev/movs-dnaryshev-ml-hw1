@@ -47,6 +47,7 @@ def preprocess_item(item: Item):
     item_df = pd.DataFrame([item])
     numerical_features = item_df[['year', 'km_driven', 'mileage', 'engine', 'max_power']]
     categorical_features = item_df[['fuel', 'seller_type', 'transmission', 'owner']]
+
     pass
 
 @app.post("/predict_item")
