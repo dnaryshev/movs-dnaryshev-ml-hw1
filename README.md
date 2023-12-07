@@ -2,9 +2,9 @@
 ## Выполнил: Нарышев Денис
 
 ### Структура отчетных файлов:
-HW1_Regression_with_inference.ipynb - ноутбук с экспериментами
-car_model.py - файл с реализацией сервиса FastAPI
-car_model_ridge.pickle - файл с сохранёнными параметрами модели
+HW1_Regression_with_inference.ipynb - ноутбук с экспериментами</br>
+car_model.py - файл с реализацией сервиса FastAPI</br>
+car_model_ridge.pickle - файл с сохранёнными параметрами модели</br>
 README.md - файл с выводами про проделанной вами работе
 
 ## Резюме проекта
