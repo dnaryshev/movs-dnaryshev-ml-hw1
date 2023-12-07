@@ -5,6 +5,7 @@ import pickle
 import pandas as pd
 import math
 import uvicorn
+import sklearn
 
 car_model = None
 cat_encoder = None
