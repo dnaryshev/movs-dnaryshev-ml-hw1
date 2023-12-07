@@ -114,6 +114,5 @@ def predict_items(items: Items) -> List[float]:
     predicted_prices = car_model.predict(processed_items_df)
     return predicted_prices.tolist()
 
-
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=5002)
